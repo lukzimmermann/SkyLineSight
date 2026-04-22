@@ -13,8 +13,8 @@ if not ACCESS_TOKEN:
     raise ValueError("❌ MAPBOX_TOKEN nicht gefunden!")
 
 # Bounding Box (lon1, lat1, lon2, lat2)
-lon1, lat1 = 9.1, 47.1
-lon2, lat2 = 9.4, 47.3
+lon1, lat1 = 9.0, 47.0
+lon2, lat2 = 10.0, 48.0
 
 # Einstellungen
 style = "mapbox/streets-v12" # mapbox/dark-v11 mapbox/streets-v12

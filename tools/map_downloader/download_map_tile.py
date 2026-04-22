@@ -15,8 +15,8 @@ TOKEN = os.getenv("MAPBOX_TOKEN")
 style = "mapbox/streets-v12"
 
 # exakte Bounding Box (lon/lat)
-lon_min, lat_min = 9.1, 47.1
-lon_max, lat_max = 9.4, 47.3
+lon_min, lat_min = 9.0, 47.0
+lon_max, lat_max = 10.0, 48.0
 
 # gewünschte Auflösung pro Tile (Pixel)
 tile_px = 1024
